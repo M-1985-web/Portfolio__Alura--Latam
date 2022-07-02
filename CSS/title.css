@@ -1,0 +1,90 @@
+/*Presentacion*/
+.title {
+    width: 80%;
+    margin: 50px 10%;
+    display: flex;
+    align-items: center;
+}
+
+.title__container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80%;
+    margin: auto 50px auto 0px;
+}
+
+.title__hola {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1.4rem;
+}
+
+.title__soy {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    line-height: 1.1rem;
+    margin-top: .5rem;
+    margin-bottom: 5px;
+}
+
+.title__network {
+    display: flex;
+    margin-top: 1.4rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title__network__item {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/*-------------------*/
+
+.title__links {
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #333333;
+    transition: all 300ms;
+}
+
+.title__links:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.title__profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.title__items--boton {
+    width: 100%;
+}
+
+.title__items--curriculum {
+    margin: 25px 0 0px 0;
+    display: block;
+    text-decoration: none;
+    color: rgb(238, 227, 227);
+    background-color: #c80bf3;
+    padding: 12px 0px;
+    text-align: center;
+    border-radius: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    transition: all 300ms;
+}
+
+.title__items--curriculum:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(184, 8, 196);
+    background-color: black;
+}

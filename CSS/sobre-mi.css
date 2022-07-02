@@ -1,0 +1,35 @@
+/*Sobre mi*/
+.about {
+    background-color: black;
+    padding: 50px 0 0 0;
+}
+
+.about__container {
+    width: 80%;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+
+.about__title {
+    text-transform:lowercase;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.about__paragraph {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.3rem;
+}
+
+/*
+.about__imagen--firma {
+    width: 100%;
+}
+*/

@@ -1,0 +1,65 @@
+#formacion {
+    background-color: rgb(141, 80, 174);
+    padding: 50px 0;
+}
+
+.academic__title {
+    color: #EAF2FD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+/*contenedor padre*/
+.academic__contenedor--courses {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 2.5%;
+}
+
+/*contenedor hij@*/
+.academic__courses__box {
+    width: 310px;
+    margin: 15px 15px 15px 15px;
+}
+
+.academic__courses__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.academic__courses__item__img {
+    width: 192px;
+    height: 130px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.academic__courses__item__title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 15px auto 1px auto;
+    text-align: center;
+}  
+
+.academic__courses__item__subtitle {
+    color: white;
+    font-weight: 400;
+    font-size: .8rem;
+    font-family: 'Raleway', sans-serif;
+    margin: 5px;
+    text-align: center;
+}

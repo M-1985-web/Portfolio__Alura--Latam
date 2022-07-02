@@ -1,0 +1,100 @@
+/*Contacto*/
+#contacto{
+    background-color: rgb(153, 153, 224);
+}
+.contacto__titulo {
+    text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+.contacto__texto {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contacto__item {
+    background-color: rgb(93, 93, 93);
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.contacto__descripcion {
+    margin-bottom: 5px;
+}
+
+.contacto__contenedor {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contacto__input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    border: none;
+    outline-style: none;
+    background-color: #272727;
+    color: white;
+}
+
+.contacto__input::placeholder {
+    color: white;
+    opacity: 50%;
+}
+
+.contacto__boton {
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 15px;
+    margin: 20px 0px;
+    background-color: #eb0ec6;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 1rem;
+    outline-style: none;
+    border: none;
+    transition: all 300ms;
+}
+
+.contacto__boton:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 0 20px #ff681d9e;
+}
+
+.contacto__input-mensaje {
+    resize: none;
+}
+
+.contacto__Info__datos {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: whitesmoke;
+    display: none;
+    text-shadow: 0 0 20px white;
+}
+
+.contacto__errores {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: red;
+}
+
+.mostrar {
+    display: block;
+}

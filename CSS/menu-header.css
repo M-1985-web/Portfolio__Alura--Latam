@@ -1,0 +1,72 @@
+/*MENU*/
+.menu {
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.menu__logo--alura {
+    width: 50px;
+    right: 50px;
+}
+
+/*NAV*/
+.menu__list {
+    display: flex;
+}
+
+.menu__list__item {
+    list-style: none;
+}
+
+.menu__list__item:last-child .menu__link {
+    margin-right: 0;
+}
+
+
+.menu__link  {
+    color: #808080;
+    margin-right: 1rem;
+    /*con el text-dec:none le saco el estilo linkeado*/
+    text-decoration: none;
+    /*transformo todo a minuscula*/
+    text-transform: lowercase;
+}
+
+.menu__link.activo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu__list__item__contacto {
+    list-style: none;
+    text-align: right; 
+}
+
+.menu__link:hover {
+    /*efecto del mause cuando pasa por encima :hover{text-...}*/
+    text-decoration: underline;
+}
+
+
+/*RESPONSIVE*/
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}
+
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}
+
+
+
