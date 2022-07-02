@@ -1,3 +1,6 @@
+para visualizar el proyecto: 
+# https://m-1985-web.github.io/Portfolio__Alura--Latam/
+
 # Alura Challenge | Oracle One | Front-end | Portafolio
 
 <p text-align = "center" >
