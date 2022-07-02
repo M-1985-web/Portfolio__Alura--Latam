@@ -98,3 +98,17 @@
 .boton-demo:hover {
     background-color: #c313eb;
 }
+
+/*RESPONSIVE*/
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}
+
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}

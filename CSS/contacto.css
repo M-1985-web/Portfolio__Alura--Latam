@@ -61,7 +61,7 @@
     padding: 15px 0;
     border-radius: 15px;
     margin: 20px 0px;
-    background-color: #eb0ec6;
+    background-color: #b70bde;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     color: black;
@@ -97,4 +97,19 @@
 
 .mostrar {
     display: block;
+}
+
+
+/*RESPONSIVE*/
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}
+
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
 }

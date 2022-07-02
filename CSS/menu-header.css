@@ -55,18 +55,34 @@
 
 
 /*RESPONSIVE*/
+@media screen and (max-width: 768px){
 
-/*Mobile*/
-@media (min-width: 425px) {
+    .menu {
+        align-items: center;
+		display: flex;
+		justify-content: center;
+    }
+
+    .menu__logo--alura {
+        padding-right: 50px;
+    }
+
+    .menu__list__item{
+        display: none;
+    }
+
+	
+	.menu__list__item__contacto {
+		font-family: 'Raleway', sans-serif;
+		color: #464646;
+		display: flex;
+		font-weight:bold;
+		align-self: flex-start;
+	}
+
+    .menu__list__item__contacto:hover {
+        text-decoration: underline;
+    }
 
 }
-
-
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-}
-
-
 

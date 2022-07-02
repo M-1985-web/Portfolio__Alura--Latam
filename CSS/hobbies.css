@@ -56,3 +56,17 @@
     color: rgb(199, 29, 162);
     font-weight: 500;
 }
+
+/*RESPONSIVE*/
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}
+
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}

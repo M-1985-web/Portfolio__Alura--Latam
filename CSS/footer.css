@@ -29,3 +29,18 @@
 .footer__logo:hover {
     text-decoration: underline;
 }
+
+
+/*RESPONSIVE*/
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+}
+
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}
